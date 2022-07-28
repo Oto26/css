@@ -1,0 +1,63 @@
+/*
+Selectores
+*/
+
+/*Selector universal*/
+*{ /*selecciona todo los elementos*/
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*margin: 0px; quita los margenes*/
+/*padding: 0px; es un margin pero interno queta los espacios*/
+}
+
+h1{
+    background:red;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    font-size: 18px;
+    color: green;
+    text-decoration: none; /*no pone ningun tipo de decoracion*/
+}
+
+footer a{/*busca lo que ay dentro del elemento footer*/
+    color: red;
+
+}
+
+/*Selector de id solo es un unico elemeto en concreto*/
+#descripcion,/*comparte mismos diseños de descripcion a titulo*/
+#titulo{
+    border: 5px solid black ; /*ace un borde*/
+    padding: 15px; /*ase un margin interior*/
+}
+
+#titulo{
+    background: blue;
+    border: 2px dashed white; /*pone unos bordes con espacios blancos*/
+}
+/*Slector de clase se utiliza paar ponerlo en suños elemetos*/
+.parrafo{
+    font-style: italic; /*texto en cursiva*/
+    /*text-decoration: underline; tenga una linea por debajp del texto*/
+    font-weight: bold; /*pone texto en negrita*/
+}
+
+.parrafo1, .parrafo3{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.parrafo3{
+    background-color: orange;
+    color: black;
+}
+
+/*Selector de atributo se utilizan en los formularios*/
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
